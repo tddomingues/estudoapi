@@ -1,0 +1,15 @@
+stringify: json p/ string 'JSON.stringify(MEU_OBJETO)'
+parse: string p/ json 'JSON.parse(MINHA_STRING)'
+
+1º instalar o npm init -y
+
+2º instalar o express e o nodemon
+
+a) nodemon é uma ferramenta que ajuda a desenvolver aplicativos baseados em Node.js, 
+reiniciando automaticamente o aplicativo de nó quando são detectadas alterações de arquivo no diretório.
+Usando: nodemon envolve seu aplicativo, para que você possa passar todos os argumentos que normalmente 
+passaria para seu aplicativo: "nodemon [seu aplicativo de nó]"
+
+3º crie um index.js e 'npm start'
+
+4º configure a api
